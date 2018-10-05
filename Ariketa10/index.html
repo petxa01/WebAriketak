@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+    <script src="js/script.js"></script>
+</head>
+<body>
+<script>
+    let soldata;
+    let antzinatasuna;
+    let valid=false;
+    do {
+        try{
+            soldata = prompt("Sartu soldata: ");
+            soldata = parseInt(soldata)
+            if(soldata>0){
+                valid=true;
+            }else {
+                valid=false;
+            }
+        }
+        catch (e) {
+            valid=false;
+        }
+        
+
+    }while (!valid  || soldata==="")
+    do {
+        try{
+            antzinatasuna = prompt("Sartu antzinatasuna: ");
+            antzinatasuna = parseInt(antzinatasuna)
+            if(antzinatasuna>0 && antzinatasuna<41){
+                valid=true;
+            }else {
+                valid=false;
+            }
+        }
+        catch (e) {
+            valid=false;
+        }
+
+
+    }while (!valid  || antzinatasuna==="")
+    soldata = soldataAldatu(soldata,antzinatasuna)
+    alert("Zure soldata berria " + (Math.round(soldata*100)/100) + " da");
+</script>
+
+</body>
+</html>

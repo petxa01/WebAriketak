@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+    <script src="js/script.js"></script>
+</head>
+<body>
+<script>
+    let nota;
+    let lista=[]
+    let mezua;
+    let valid=false;
+    for (let i = 0; i < 10; i++) {
+        do {
+            try{
+                nota = prompt("Sartu nota "+ (i+1)+" ikaslearena");
+                nota = parseInt(nota)
+                if(nota>=0 && nota <= 10){
+                    valid=true;
+                    lista[i]=nota;
+
+                }else {
+                    valid=false;
+                }
+            }
+            catch (e) {
+                valid=false;
+            }
+
+
+        }while (!valid  || nota==="")
+    }
+
+
+    mezua = zenbatIkasle(lista)
+    alert(mezua);
+</script>
+
+</body>
+</html>

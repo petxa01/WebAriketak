@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <script>
+        var zenbaki1 = "";
+        console.log()
+        var zenbaki2 = "";
+        do {
+            zenbaki1 = prompt("Sartu zenbaki bat, mesedez");
+            console.log(zenbaki1);
+            zenbaki2 = prompt("Sartu beste zenbaki bat");
+
+        }while (isNaN(zenbaki1) || isNaN(zenbaki2) || zenbaki1==="" || zenbaki2==="" || zenbaki1=== null || zenbaki2=== null);
+                
+        alert(Konparatu(parseInt(zenbaki1),parseInt(zenbaki2)));
+            
+    </script>
+</body>
+</html>

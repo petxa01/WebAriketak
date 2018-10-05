@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kamisetak</title>
+</head>
+<body>
+<div>
+    <p>Pulsa adelante o atras</p>
+    <h3 id="kamiseta">Camiseta 6</h3>
+    <img id="kamistetaimg" src="6.jpg">
+    <table>
+        <tr>
+            <td>
+                <button id="atras" disabled><<< Atras </button>
+            </td>
+            <td>
+                <button id="adelante" >Adelante >>></button>
+            </td>
+        </tr>
+    </table>
+</div>
+<script>
+    let atras=document.getElementById("atras");
+    let adelante=document.getElementById("adelante");
+    atras.onclick=function(){
+        let izena=document.getElementById("kamiseta");
+        if (izena.innerHTML === "Camiseta 11"){
+            izena.innerHTML="Camiseta 9";
+            document.getElementById('kamistetaimg').src='9.jpg';
+            adelante.disabled=false;
+        }
+        else if (izena.innerHTML === "Camiseta 9") {
+            izena.innerHTML= "Camiseta 6";
+            document.getElementById('kamistetaimg').src='6.jpg';
+            atras.disabled=true;
+        }else {
+            alert("Ezin da mugimendu hori egin")
+        }
+    }
+    adelante.onclick=function(){
+        let izena=document.getElementById("kamiseta");
+        if (izena.innerHTML === "Camiseta 6"){
+            izena.innerHTML="Camiseta 9";
+            document.getElementById('kamistetaimg').src='9.jpg';
+            atras.disabled=false;
+        }else if (izena.innerHTML === "Camiseta 9") {
+            izena.innerHTML= "Camiseta 11";
+            document.getElementById('kamistetaimg').src='11.jpg';
+           adelante.disabled=true;
+        }else {
+            alert("Ezin da mugimendu hori egin")
+        }
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+    <script src="js/script.js"></script>
+</head>
+<body>
+<script>
+    let zenbaki1;
+    let zenbaki2;
+    let zenbaki3;
+    do {
+        zenbaki1 = prompt("Sartu lehengo zenbakia ");
+        zenbaki2 = prompt("Sartu bigarren zenbakia ");
+        zenbaki3 = prompt("Sartu hirugarren zenbakia ");
+
+
+    }while (isNaN(zenbaki1) || isNaN(zenbaki2) || isNaN(zenbaki3))
+    alert(hiruZenbaki(parseInt(zenbaki1),parseInt(zenbaki2),parseInt(zenbaki3)));
+</script>
+
+</body>
+</html>

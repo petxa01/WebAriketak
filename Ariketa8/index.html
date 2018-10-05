@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+    <script src="js/script.js"></script>
+</head>
+<body>
+<script>
+    let zenbaki1;
+    let len;
+
+
+    do {
+        zenbaki1 = prompt("Sartu data bat (YYYY/MM/DD)");
+        if (zenbaki1 < 0) {
+            len = zenbaki1.length-1;
+
+        }
+        else{
+
+            len = zenbaki1.length;
+        }
+
+
+    }while (isNaN(zenbaki1)|| zenbaki1 === ""|| zenbaki1 === null || len>3)
+    alert(zenbatDigitu(parseInt(zenbaki1)));
+</script>
+
+</body>
+</html>

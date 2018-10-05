@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+    <script src="js/script.js"></script>
+</head>
+<body>
+<script>
+    let zenbaki1;
+    let len = 4;
+    do {
+        zenbaki1 = prompt("Sartu zenbaki bat ");
+        if (zenbaki1 !==null ) {
+            if (zenbaki1 < 0) {
+                len = zenbaki1.length - 1;
+
+            }
+            else {
+
+                len = zenbaki1.length;
+            }
+
+        }
+
+
+    }while (isNaN(zenbaki1)
+            || ( zenbaki1 !== null && zenbaki1.trim() === "")
+            || len>3)
+    alert(zenbatDigitu(zenbaki1));
+</script>
+
+</body>
+</html>

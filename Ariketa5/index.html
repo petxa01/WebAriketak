@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+    <script src="js/script.js"></script>
+</head>
+<body>
+<script>
+    let zenbaki1=0;
+    do {
+        zenbaki1 = prompt("Sartu zenbaki bat bakoitia edo bikoitia den jakitzeko, mesedez");
+    }while (isNaN(zenbaki1)|| zenbaki1 === ""|| zenbaki1 === null)
+    alert(bikoitia(parseInt(zenbaki1)));
+</script>
+
+</body>
+</html>

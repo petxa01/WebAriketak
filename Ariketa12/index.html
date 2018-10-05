@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+    <script src="js/script.js"></script>
+</head>
+<body>
+<script>
+    let soldata;
+    let lista=[]
+    let mezua;
+    let valid=false;
+    for (let i = 0; i < 5; i++) {
+        do {
+            try{
+                soldata = prompt("Sartu soldata "+ (i+1)+" langilearena");
+                soldata = parseInt(soldata)
+                if(soldata>=1000 && soldata <= 1500){
+                    valid=true;
+                    lista[i]=soldata;
+
+                }else {
+                    valid=false;
+                }
+            }
+            catch (e) {
+                valid=false;
+            }
+
+
+        }while (!valid  || soldata==="")
+    }
+
+
+    mezua = zenbatIkasle(lista)
+    alert(mezua);
+</script>
+
+</body>
+</html>
