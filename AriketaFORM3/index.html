@@ -13,48 +13,45 @@
     <div class="row">
 
         <div class="col-6 borde mr-3"> <!-- Ezkerreko div -->
-            <form class="form">
+            <form class="form" onsubmit="return false">
                 <div class="row">
                     <div class="mb-3 col-12">
-                        <div class="form-check-inline col-3 mp-3 ">
-                            Zuzentzeko era
-                        </div>
 
                         <div class="form-check-inline">
                             <label class="form-check-label">
-                                <input type="radio" class="form-check-input" id="gizona" name="optradio" checked onchange="argazkiaGizona()">Jauna
+                                <input type="radio" class="form-check-input" id="gizona" name="optradio" onchange="balidatu()">Jauna
                             </label>
                         </div>
                         <div class="form-check-inline">
                             <label class="form-check-label">
-                                <input type="radio" class="form-check-input" id="anderea" name="optradio" onchange="argazkiaAnderea()">Anderea
+                                <input type="radio" class="form-check-input" id="anderea" name="optradio" onchange="balidatu()">Anderea
                             </label>
                         </div>
-
+                        <span id="radioA" class="gorria"></span>
                     </div>
                 </div>
                 <div class="row">
                     <div class=" mb-3 col-12 form-group form-inline "  >
-                        <label class="col-3" for="izena">Izena</label>
-                        <input type="text" class="form-control col-6" id="izena" placeholder="Izena sartu">
+                        <label class="col-3" for="izena">Izena<span id="radioIzena" class="gorria"></span></label>
+                        <input type="text" class="form-control col-9" id="izena" placeholder="Izena sartu" onkeyup="balidatu()">
                     </div>
                 </div>
                 <div class="row">
                     <div class="form-group col-12 mb-3 form-group form-inline ">
-                        <label class="col-3" >Abizena</label>
-                        <input type="password" class="form-control col-6" id="abizena" placeholder="Abizena">
+                        <label class="col-3" >Abizena<span id="radioAbizena" class="gorria"></span></label>
+                        <input type="text" class="form-control col-9" id="abizena" placeholder="Abizena" onkeyup="balidatu()">
                     </div>
                 </div>
                 <div class="row">
                     <div class="form-group col-12 mb-3 form-group form-inline ">
-                        <label class="col-3" for="helbidea">Helbidea</label>
-                        <input type="password" class="form-control col-6" id="helbidea" placeholder="Helbidea">
+                        <label class="col-3" for="helbidea">Helbidea<span id="radioHelbidea" class="gorria"></span></label>
+                        <input type="text" class="form-control col-9" id="helbidea" placeholder="Helbidea" onkeyup="balidatu()">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 mb-3 ">
-                        <label class="col-3" for="hiria" >Hiria</label>
-                        <select class=" col-6" id="hiria">
+                        <label class="col-3" for="hiria" >Hiria<span id="radioHiria" class="gorria"></span></label>
+                        <select class=" col-6" id="hiria" onchange="balidatu()">
                             <option selected hidden>Aukeratu...</option>
                             <option value="Bergara">Bergara</option>
                             <option value="Eibar">Eibar</option>
@@ -63,28 +60,26 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-3">Gustokoena</div>
-                    <div class="col-3"><label><input  type="checkbox" id="liburuak" value="Liburuak">Liburuak</label></div>
-                        <div class="col-3"><label><input  type="checkbox" id="pelikulak" value="Pelikulak">Pelikulak</label></div>
+                    <div class="col-3">Ikasketak<span id="radioIkasketak" class="gorria"></span></div>
+                    <div class="col-3"><label><input  type="checkbox" id="dam" value="dam" onchange="balidatu()">DAM</label></div>
+                    <div class="col-3"><label><input  type="checkbox" id="daw" value="daw" onchange="balidatu()">DAW</label></div>
+                    <div class="col-3"><label><input  type="checkbox" id="asir" value="asir" onchange="balidatu()">ASIR</label></div>
                 </div>
                 <div class="row">
                     <div class="col-3"></div>
-                    <div class="col-3"><button onclick="bidali()" class="btn btn-primary col-12">Bidali</button></div>
-                    <div class="col-3"><button onclick="" class="btn btn-primary col-12">Ezabatu</button></div>
+                    <div class="col-3">
+                        <button id="bidali" onclick="balidatuBotoia()" class="btn btn-primary col-12">Bidali</button>
+                    </div>
+                    <div class="col-3">
+                        <button onclick="reset(); hustu();" class="btn btn-danger col-12">Ezabatu</button>
+                    </div>
 
                 </div>
             </form>
         </div><!-- Ezkerreko div -->
         <div class="col-5"><!-- Eskuineko div -->
             <div class="row">
-                <div class="borde argazkia-gizona mb-3 " id="argazkia">
-                    ?
-                </div>
-            </div>
-            <div class="row">
-                <div class="borde emaitza" id="emaitza">
-
-                </div>
+                <div id="emaitza"></div>
             </div>
         </div>
     </div>

@@ -1,0 +1,26 @@
+
+.borde{
+    border: 3px black solid;
+}
+.fondo-horia{
+    background-color: yellow;
+}
+.borde-gorria{
+    border: 1px red solid;
+}
+.emaitza{
+    width: 100%;
+    height: 300px;
+}
+.erdiratu{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.radio-buton-gorria{
+    background: red;
+}
+.gorria{
+    color: red;
+}

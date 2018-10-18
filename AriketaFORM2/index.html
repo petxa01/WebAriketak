@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AriketaFORM2</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="container">
+    <h1>Web aplikazioen garapena</h1>
+    <h4>Formularioak</h4>
+    <p>Gurekin kontaktatzeko formulario hau bete:</p>
+    <form onsubmit="return false">
+        <div class="row">
+            <div class="col-1"><label for="izena">Izena</label></div>
+            <div class="col-4"><input type="text" class="form-control" id="izena" placeholder="Izena"></div>
+        </div>
+        <div class="row">
+            <div class="col-1"><label for="abizena">Abizena</label></div>
+            <div class="col-4"><input type="text" class="form-control" id="abizena" placeholder="Abizena"></div>
+        </div>
+
+        <p>Gustatzen zaizkizun animaliak aukeratu:</p>
+        <label><input type="checkbox" id="Lehoia" value="Lehoia">Lehoia</label>
+        <label><input type="checkbox" id="Tigrea" value="Tigrea">Tigrea</label>
+        <label><input type="checkbox" id="Gepardoa" value="Gepardoa">Gepardoa</label>
+        <label><input type="checkbox" id="Jaguarra" value="Jaguarra">Jaguarra</label>
+        <div class="row">
+            <div class="col-1"><label for="emaila">Emaila</label></div>
+            <div class="col-4"><input type="email" class="form-control" id="emaila" placeholder="Emaila"></div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <button id="bidali" onclick="erakutsi()" class="btn btn-primary col-12">Bidali</button>
+            </div>
+            <div class="col-2">
+                <button onclick="reset()" class="btn btn-danger col-12">Ezeztatu</button>
+            </div>
+        </div>
+    </form>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
