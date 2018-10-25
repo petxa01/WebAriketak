@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98b410ed-7e82-45d0-b293-427924988448" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AriketaFORM1/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AriketaFORM2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AriketaFORM2/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AriketaFORM3/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AriketaFORM3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AriketaFORM3/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ariketa25/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ariketa25/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AriktaFORM1/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/AriketaFORM1/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AriktaFORM1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/AriketaFORM1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AriktaFORM1/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AriktaFORM1/resources/caraHombre.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/AriketaFORM1/resources/caraHombre.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AriktaFORM1/resources/caraMujer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/AriketaFORM1/resources/caraMujer.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,7 +19,7 @@
     <session id="-1402924283">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
@@ -48,8 +39,8 @@
         <counts>
           <entry key="JavaScript Console" value="3" />
           <entry key="css" value="472" />
-          <entry key="html" value="4147" />
-          <entry key="js" value="3977" />
+          <entry key="html" value="4300" />
+          <entry key="js" value="4400" />
           <entry key="txt" value="19" />
         </counts>
       </usages-collector>
@@ -57,22 +48,22 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="3" />
-          <entry key="HTML" value="38" />
-          <entry key="JavaScript" value="33" />
+          <entry key="HTML" value="40" />
+          <entry key="JavaScript" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="3" />
-          <entry key="html" value="38" />
-          <entry key="js" value="33" />
+          <entry key="html" value="40" />
+          <entry key="js" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="472" />
-          <entry key="HTML" value="4147" />
-          <entry key="JavaScript" value="3980" />
+          <entry key="HTML" value="4300" />
+          <entry key="JavaScript" value="4403" />
           <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
@@ -81,28 +72,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AriketaFORM3/index.html">
+        <entry file="file://$PROJECT_DIR$/Ariketa25/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AriketaFORM3/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+            <state relative-caret-position="170">
+              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AriketaFORM3/js/script.js">
+        <entry file="file://$PROJECT_DIR$/Ariketa25/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1888">
-              <caret line="181" column="86" selection-start-line="181" selection-start-column="86" selection-end-line="181" selection-end-column="86" />
+            <state relative-caret-position="34">
+              <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -165,6 +147,8 @@
         <option value="$PROJECT_DIR$/AriketaFORM3/css/main.css" />
         <option value="$PROJECT_DIR$/AriketaFORM3/index.html" />
         <option value="$PROJECT_DIR$/AriketaFORM3/js/script.js" />
+        <option value="$PROJECT_DIR$/Ariketa25/index.html" />
+        <option value="$PROJECT_DIR$/Ariketa25/js/script.js" />
       </list>
     </option>
   </component>
@@ -175,7 +159,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="566" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -195,19 +179,7 @@
             <path>
               <item name="Ariketas" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ariketas" type="462c0819:PsiDirectoryNode" />
-              <item name="AriketaFORM3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ariketas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ariketas" type="462c0819:PsiDirectoryNode" />
-              <item name="AriketaFORM3" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ariketas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ariketas" type="462c0819:PsiDirectoryNode" />
-              <item name="AriketaFORM3" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="Ariketa25" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -219,6 +191,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Diseño/css ariketak" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -262,18 +235,17 @@
       <workItem from="1538648948003" duration="8045000" />
       <workItem from="1539072467448" duration="11241000" />
       <workItem from="1539163040660" duration="599000" />
-      <workItem from="1539247692145" duration="20926000" />
+      <workItem from="1539247692145" duration="24786000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65707000" />
+    <option name="totallyTimeSpent" value="69567000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="566" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27884614" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19123931" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -568,17 +540,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AriketaFORM3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AriketaFORM3/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1888">
           <caret line="181" column="86" selection-start-line="181" selection-start-column="86" selection-end-line="181" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AriketaFORM3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="58" column="33" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="58" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ariketa25/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ariketa25/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
         </state>
       </provider>
     </entry>
