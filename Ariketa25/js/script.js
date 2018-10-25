@@ -2,7 +2,7 @@ function konprobatu() {
 let probintzia=document.getElementById("probintzia");
 let emaitza=document.getElementById("emaitza");
 let herriak=[];
-let mezua="<select id=\"hiria\" onchange=\"konprobatu()\">" +
+let mezua="<select id=\"hiria\">" +
     "<option selected >-</option>";
 
 if (probintzia.value==="Gipuzkoa") {
@@ -16,6 +16,6 @@ if (probintzia.value==="Gipuzkoa") {
     for (let i = 0; i <herriak.length ; i++) {
         mezua+="<option>"+herriak[i] +"</option>";
     }
-    mezua+="</option>";
+    mezua+="</select>";
     emaitza.innerHTML=mezua;
 }
