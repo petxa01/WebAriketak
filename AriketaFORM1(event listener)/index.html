@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AriketaForm1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+
+
+</head>
+<body>
+<div class="container mt-5" >
+    <div class="row">
+
+        <div class="col-6 borde mr-3"> <!-- Ezkerreko div -->
+            <form id="form" class="form">
+                <div class="row">
+                    <div class="mb-3 col-12">
+                        <div class="form-check-inline col-3 mp-3 ">
+                            Zuzentzeko era
+                        </div>
+
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" id="gizona" name="optradio" checked>Jauna
+                            </label>
+                        </div>
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" id="anderea" name="optradio">Anderea
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class=" mb-3 col-12 form-group form-inline "  >
+                        <label class="col-3" for="izena">Izena</label>
+                        <input type="text" class="form-control col-6" id="izena" placeholder="Izena sartu">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-12 mb-3 form-group form-inline ">
+                        <label class="col-3" >Abizena</label>
+                        <input type="text" class="form-control col-6" id="abizena" placeholder="Abizena">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-12 mb-3 form-group form-inline ">
+                        <label class="col-3" for="helbidea">Helbidea</label>
+                        <input type="text" class="form-control col-6" id="helbidea" placeholder="Helbidea">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 mb-3 ">
+                        <label class="col-3" for="hiria" >Hiria</label>
+                        <select class=" col-6" id="hiria">
+                            <option selected hidden>Aukeratu...</option>
+                            <option value="Bergara">Bergara</option>
+                            <option value="Eibar">Eibar</option>
+                            <option value="Arrasate">Arrasate</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">Gustokoena</div>
+                    <div class="col-3"><label><input  type="checkbox" id="liburuak" value="Liburuak">Liburuak</label></div>
+                    <div class="col-3"><label><input  type="checkbox" id="pelikulak" value="Pelikulak">Pelikulak</label></div>
+                </div>
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-3">
+                        <button id="bidali" class="btn btn-primary col-12" disabled>Bidali</button>
+                    </div>
+                    <div class="col-3">
+                        <button id="ezabatu"  class="btn btn-danger col-12">Ezabatu</button>
+                    </div>
+
+                </div>
+            </form>
+        </div><!-- Ezkerreko div -->
+        <div class="col-5"><!-- Eskuineko div -->
+            <div class="row">
+                <div class="borde argazkia-gizona mb-3 erdiratu" id="argazkia">
+                    <h3>?</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="borde emaitza" id="emaitza">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
